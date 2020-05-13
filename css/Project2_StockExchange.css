@@ -1,0 +1,122 @@
+.srch {
+  height: 38px;
+  background-color: rgb(52, 81, 247);
+  color: white;
+}
+
+.search-page {
+  margin: 0 auto;
+  display: block;
+  width: 120vh;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  
+}
+
+.nasdaq {
+  text-align: center;
+  
+}
+
+.boxLoading {
+  border: 3px solid #f3f3f3;
+  /* Light grey */
+  border-top: 3px solid #424446;
+  /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: auto;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.company-symbol {
+  color: #424446;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-red {
+  color: rgb(172, 15, 15);
+}
+
+.stockInfoWrapper {
+  color: #424446;
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+ 
+}
+
+.stockPrice {
+  color: green;
+  display: inline-block;
+  margin-left: 2px;
+  
+}
+
+.stockSymbol {
+  display: inline-block;
+ 
+}
+
+@keyframes marqueeAnime {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.m-holder {
+  position: relative;
+  height: 50px;
+  display: block;
+}
+.marquee-div {
+  width: 200%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  animation: marqueeAnime 20s linear infinite;
+}
+
+.boxLoading {
+ 
+  margin-left: 30px;
+  position: absolute;
+  display: inline-block;
+}
+
+.invisible {
+  visibility: none;
+}
+.yellow {
+  background-color: yellow;
+}
+.highlight {
+  background-color: yellow;
+}
